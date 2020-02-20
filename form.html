@@ -1,0 +1,89 @@
+<html>
+    <head>
+        <title>Caleb</title>
+        <style>
+            #user{
+                color:green;
+            }
+            #user1{
+                color:red;
+            }
+            #user2{
+                color: blue;
+            }
+            #user3{
+                color: gray;
+                background-color: cadetblue;
+            }
+            #user4{
+                color: coral;
+                background-color: darkgoldenrod
+
+            }
+            #user5{
+                color: khaki;
+                background-color: brown
+            }
+            #user6{
+                color:darkorange;
+                background-color: darkmagenta
+            }
+            #user7{
+                color: lightseagreen;
+                background-color: darkred
+            }
+            #user8{
+                color: magenta;
+                background-color: darkturquoise
+            }
+            #user9{
+                color: black;
+                background-color: darkslategray
+            }
+        </style>
+    </head>
+    <body>
+        <form
+        action="http://example.com/join.php"
+        method="post">
+
+        <p>Username:
+        <input type="text" name="username" id="user" size="15" maxlength="30"/>
+        </p>
+
+        <p>
+        Password:
+        <input type="password" name="password" id="user1" size="15" maxlenth="30"/>
+        </p>
+
+        <textarea name="comment" id="comment" cols="10" rows="4">Type</textarea>
+        <br>
+
+        <input type="radio" name="major" id="user2" value="IS"/>IS 
+        <input type="radio" name="major" id="user3" value="Finance"/>Finance
+        <input type="radio" name="major" id="user4" value="Economics"/>Economics
+        <input type="radio" name="major" id="user5" value="Mathematics"/>Mathematics
+        
+        <br>
+
+        <input type="checkbox" name="major" id="user6" value="IS"/> IS
+        <input type="checkbox" name="major" id="user7" value="Finance"/> Finance
+        <input type="checkbox" name="major" id="user8" value="Economics"/> Economics
+        <input type="checkbox" name="major" id="user9" value="Mathematics"/> Mathematics
+
+        <br>
+
+        <select name="major">
+            <option value="IS">IS</option>
+            <option value="Finance">Finance</option>
+            <option value="Economics">Economics</option>
+            <option value="mathematics">mathematics</option>  
+        </select>
+        <br>
+        <br>
+
+        <input type="file" name="resume"/>
+        <input type="submit" value="Click">  
+    </form>     
+    </body>
+</html>
